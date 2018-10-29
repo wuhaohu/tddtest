@@ -23,7 +23,7 @@ public class AnagramsApiTest {
         String word = "a";
         List<String> result = new ArrayList<String>();
         result.add(word);
-        assertThat(sut.recurseArrange(word)).isEqualTo("a");
+        assertThat(sut.recurseArrange(word)).isEqualTo(result);
     }
 
     @Test
