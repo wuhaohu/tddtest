@@ -47,4 +47,9 @@ public class FizzBuzzApiTest {
     public void 输入35返回BuzzSuzz() {
         assertThat(sut.getFizzBuzz(35)).isEqualTo("BuzzSuzz");
     }
+
+    @Test
+    public void 输入105返回FizzBuzzSuzz() {
+        assertThat(sut.getFizzBuzz(105)).isEqualTo("FizzBuzzSuzz");
+    }
 }
